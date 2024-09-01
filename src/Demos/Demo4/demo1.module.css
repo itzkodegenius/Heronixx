@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Thunder';
+    src: url(../../assets/fonts/Thunder-BlackLC.otf);
+}
+
+@font-face {
+    font-family: 'TradeGothic';
+    src: url(../../assets/fonts/tradeGothic.ttf);
+}
+
+.tradeGoThicFont {
+    font-family: 'TradeGothic';
+}
+
+.thunderFont {
+    font-family: 'Thunder';
+}
+
+.minaFont {
+    font-family: "Mina", sans-serif;
+}
+
+.tommorowFont {
+    font-family: "Tomorrow", sans-serif;
+}
+
+
+
+.carouselItem1 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #FF7B7BFF 2%, #AD020EFF 78%);
+}
+
+.carouselItem2 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #3370ff 2%, #002B8F 78%);
+}
+
+.carouselItem3 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #9BD0D4FF 2%, #337679 78%);
+}
+
+.navItem {
+
+    font-size: 20px;
+    line-height: 28.8px;
+    font-weight: 600;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.carouselImage {
+    font-size: 450px;
+    height: 90vh;
+}
+
+@media screen and (max-width : 768px) {
+    .carouselImage {
+        height: 530px;
+        margin-top: 65px;
+        font-size: 200px;
+
+        img {
+            width: 300px;
+        }
+    }
+}
+
+.redColor {
+    background-color: #AD020E;
+}
+
+.blueColor {
+    background-color: #002B8F;
+}
+
+.greenColor {
+    background-color: #3C919C;
+}
+
+.carousel-indicators {
+    display: none;
+}

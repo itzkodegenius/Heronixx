@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Thunder';
+    src: url(../../assets/fonts/Thunder-BlackLC.otf);
+}
+
+@font-face {
+    font-family: 'TradeGothic';
+    src: url(../../assets/fonts/tradeGothic.ttf);
+}
+
+.tradeGoThicFont {
+    font-family: 'TradeGothic';
+}
+
+.thunderFont {
+    font-family: 'Thunder';
+}
+
+.minaFont {
+    font-family: "Mina", sans-serif;
+}
+
+.tommorowFont {
+    font-family: "Tomorrow", sans-serif;
+}
+
+
+
+.carouselItem1 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #D39145 2%, #AC6D3E 78%);
+}
+
+.carouselItem2 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #CE857D 2%, #B04C42 78%);
+}
+
+.carouselItem3 {
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-image: radial-gradient(75% 75% at 50% 50%, #8DBC75 2%, #5C9941 78%);
+}
+
+.navItem {
+
+    font-size: 20px;
+    line-height: 28.8px;
+    font-weight: 600;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.carouselImage {
+    font-size: 650px;
+    height: 90vh;
+
+    img{
+        width: 50npm ru0px;
+    }
+}
+.thunderFont.burger {
+    font-size: 600px;
+}
+
+.thunderFont.shawarma {
+    font-size: 450px;
+}
+
+.thunderFont.chicken {
+    font-size: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .thunderFont.burger {
+        font-size: 150px;
+    }
+
+    .thunderFont.shawarma {
+        font-size: 110px;
+    }
+
+    .thunderFont.chicken {
+        font-size: 140px;
+    }
+}
+
+
+@media screen and (max-width : 768px) {
+    .carouselImage {
+        height: 530px;
+        margin-top: 65px;
+        font-size: 200px;
+        margin-bottom: 50px;
+              
+    }
+}
+
+.redColor {
+    background-color: #AD020E;
+}
+
+.blueColor {
+    background-color: #002B8F;
+}
+
+.greenColor {
+    background-color: #3C919C;
+}
+
+.carousel-indicators {
+    display: none;
+}
